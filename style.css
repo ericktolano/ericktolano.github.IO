@@ -1,0 +1,18 @@
+.fogris{
+    background-color: gray;
+    }
+    .focrem{
+        background-color: #FFF0C9;
+        border-radius: 50px;
+        padding-left: 50px;
+    }
+    .justidicado{
+        text-align: justify;
+    }
+    .textose{
+        padding-right: 50%;
+    }
+    .pan{
+        text-align: right;
+        display: inline;
+    }
