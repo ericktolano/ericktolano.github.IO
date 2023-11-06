@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingenieria de Software</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .hoja {
+            margin: 0 auto;
+            width: 80%;
+            border: solid 1px black;
+            padding: 20px;
+        }
+
+        .subtitulo {
+            text-align: center;
+        }
+
+        div.tabla1 th {
+            border: solid 1px white;
+            background-color: #333;
+            color: white;
+            border-collapse: collapse;
+
+        }
+
+        div.tabla1 td {
+            border: 1px solid gray;
+
+        }
+
+        div.tabla1 table {
+            border-collapse: collapse;
+            box-shadow: 10px 10px 20px;
+            width: 100%;
+            margin-right: 50%;
+
+
+        }
+
+        div.lista1 {
+            border: solid 1px black;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px;
+            width: 350px;
+            float: left        ;
+            padding: 2%;
+            background-color: aqua;
+        }
+
+        div.lista2 {
+            border: solid 1px black;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px;
+            width: 350px;
+            float: right    ;
+            padding: 2%;
+            background-color: aqua;
+        }
+
+        div.listas {
+            margin-top: 80px;
+            /* margin-bottom: 100px; */
+        }
+
+        div.tabla2 {
+            clear: both;
+            padding-top: 100px;
+        }
+
+        div.tabla2 td,
+        div.tabla2 th {
+            border: solid 1px black;
+        }
+
+        div.tabla2 table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .tamañoimg {
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hoja">
+        <div class="titulo">
+            <h1>Ingeniería de Software</h1>
+        </div>
+        <div class="subtitulo"> <span>Tabla de ingeniería de software</span></div>
+        <div class="tabla1">
+            <table>
+                <tr>
+                    <th rowspan="2">Área</th>
+                    <th colspan="2">Conceptos Clave</th>
+
+                    <th rowspan="2">Metodologías</th>
+                </tr>
+                <tr>
+                    <th>Desrrollo</th>
+                    <th>Gestión</th>
+                </tr>
+                <tr>
+                    <td>Requisitos</td>
+                    <td>Análisis de requerimientos</td>
+                    <td>Planificación del proyecto</td>
+                    <td>Metodología Ágil</td>
+                </tr>
+                <tr>
+                    <td>Diseño</td>
+                    <td>Modelado de sistemas</td>
+                    <td>Control de calidad</td>
+                    <td>Modelo en Cascada</td>
+                </tr>
+                <tr>
+                    <td>Desarrollo</td>
+                    <td>Programación orientada a objetos</td>
+                    <td>Seguimiento del proyecto</td>
+                    <td>Scrum</td>
+                </tr>
+                <tr>
+                    <td>Pruebas</td>
+                    <td>Pruebas de software</td>
+                    <td> software Gestión de riesgos</td>
+                    <td>DevOps</td>
+                </tr>
+            </table>
+        </div>
+        <div class="listas">
+            <div class="lista1">
+                <div>
+                    <h1>Metodologia más utilizadas</h1>
+                </div>
+                <div>
+                    <ul>
+                        <li>Metodología Ágil</li>
+                        <li>Desarrollo en Cascada (Waterfall)</li>
+                        <li>Desarrollo en Espiral (Spiral)</li>
+                        <li>Modelo de Desarrollo Rápido de Aplicaciones (RAD)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lista2">
+                <div>
+                    <h1>Etapas de las Metodología</h1>
+                </div>
+                <div>
+                    <ol>
+                        <li>Requisitos de software</li>
+                        <li>Diseño de software</li>
+                        <li>Desarrollo de software</li>
+                        <li>Pruebas de software</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="tabla2">
+            <table>
+                <tr>
+                    <td>Modelo</td>
+                    <th>Aplicacion</th>
+                    <td></td>
+                </tr>
+                <tr>
+
+                    <td>Cascada</td>
+                    <td>
+                        <ul>
+                            <li>Los requisitos son conocidos, comprendidos y fijados. No hay requisitos contradictorios.
+                            </li>
+                            <li>En proyectos pequeños y medianos.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <img class="tamañoimg" src="/imagenes/Cascada.jpg" alt="Cascada">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Iterativo
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Los requisitos básicos del sistema están claramente definidos y comprendidos. Al mismo
+                                tiempo, algunos detalles se pueden mejorar con el tiempo.</li>
+                            <li>Se requiere un lanzamiento temprano al mercado.</li>
+                            <li>Hay varias características u objetivos riesgosos.
+                            </li>
+                        </ul>
+                    </td>
+                    <td><img class="tamañoimg" src="/imagenes/Iterativo.jpg" alt=""></td>
+                </tr>
+                <tr>
+                    <td>Espiral</td>
+                    <td>
+                        <ul>
+                            <li>Tiene un presupuesto ajustado y la evaluación de riesgos es importante;</li>
+                            <li>Sin limitación de tiempo;</li>
+                            <li>Los requisitos son complejos.</li>
+                            <li>El producto es propenso a sufrir alteraciones importantes durante el proceso de
+                                desarrollo.</li>
+
+                        </ul>
+                    </td>
+                    <td><img class="tamañoimg" src="/imagenes/Espiral.jpg" alt=""></td>
+                </tr>
+                <tr>
+                    <td>V</td>
+                    <td>
+                        <ul>
+                            <li>Se requieren pruebas exhaustivas del producto.</li>
+                            <li>Para proyectos pequeños y medianos donde los requisitos están claramente definidos y
+                                fijados.</li>
+                            <li>Se encuentran disponibles ingenieros con las calificaciones necesarias, especialmente
+                                probadores.</li>
+
+                        </ul>
+                    </td>
+                    <td><img class="tamañoimg" src="/imagenes/V.jpg" alt=""></td>
+                </tr>
+                <tr>
+                    <td>Big Bang</td>
+                    <td>
+                        <ul>
+                            <li>Existe una necesidad urgente del producto.</li>
+                            <li>Poco o ningún tiempo para la preparación.</li>
+                            <li>Los requisitos y plazos no están claramente establecidos.</li>
+                            <li>Su equipo de desarrolladores está formado por 1 o 2 especialistas.</li>
+
+                        </ul>
+                    </td>
+                    <td><img class="tamañoimg" src="/imagenes/BigBang.jpg" alt="BigBang"></td>
+                </tr>
+                <tr>
+                    <td>Agiles</td>
+                    <td>
+                        <ul>
+                            <li>Las necesidades de los usuarios cambian constantemente en un negocio dinámico.</li>
+                            <li>Los cambios ágiles se implementan a un costo menor debido a la alta frecuencia de
+                                incremento.</li>
+                            <li>Poca planificación es suficiente para iniciar un proyecto.</li>
+                        </ul>
+                    </td>
+                    <td><img class="tamañoimg" src="/imagenes/Agiles.jpg" alt="Agiles"></td>
+                </tr>
+                <tr>
+                    <td>RAD</td>
+                    <td>
+                        <ul>
+                            <li>Hay arquitectos altamente calificados y especializados disponibles.</li>
+                            <li>El presupuesto del proyecto es grande para permitirse el lujo de estos especialistas,
+                                junto con el costo de las herramientas de montaje automatizadas ya preparadas</li>
+                            <li>Existe un conocimiento seguro del negocio objetivo.</li>
+                            <li>Es necesario producir urgentemente el sistema en un plazo de 2 a 3 meses.</li>
+                        </ul>
+                    </td>
+                    <td><img class="tamañoimg" src="/imagenes/RAD.jpg" alt="RAD"></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+</body>
+
+</html>
